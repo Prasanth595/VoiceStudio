@@ -180,6 +180,7 @@ This release also adds a GPU acceleration panel with honest Radeon reporting, th
 - License notice: commercial use is free under the AGPL; the paid licence is for closed-source use, with Pro plans linked (#2578)
 
 ### Fixed
+- The no-web-UI fallback keeps the share PIN on its dev-UI redirect and answers terminally instead of looping when the share listener sits on the UI port (#2680) — thanks @swadhinbiswas!
 
 - A fresh install no longer logs settings errors before its database is created (#2776)
 - The model licence dialog says when licences are accepted and no longer assumes an action is waiting (#2776)
